@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tecprog:
+    image: tecprog
+    build:
+      context: .
+      dockerfile: ./Dockerfile
